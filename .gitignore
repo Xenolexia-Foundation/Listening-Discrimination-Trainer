@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Build and intermediates
+build/
+dist/
+intermediates/
+release/
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs and debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.log
+
+# OS
+.DS_Store
+
+# Local env
+.env
+.env*.local
+
+# Markdown (keep README)
+*.md
+!README.md
