@@ -26,3 +26,4 @@ yarn-error.*
 # Markdown (keep README)
 *.md
 !README.md
+!**/README.md
