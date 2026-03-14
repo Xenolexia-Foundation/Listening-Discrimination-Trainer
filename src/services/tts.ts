@@ -1,4 +1,9 @@
 /**
+ * Copyright (C) 2016-2026 Husain Alamri (H4n) and Xenolexia Foundation.
+ * Licensed under the GNU Affero General Public License v3.0 (AGPL-3.0). See LICENSE.
+ */
+
+/**
  * TTS service using the Web Speech API (speechSynthesis).
  * One utterance at a time; speak() resolves when playback completes or fails.
  * Robust to errors and optionally uses a voice that matches the requested language.

@@ -1,3 +1,8 @@
+/**
+ * Copyright (C) 2016-2026 Husain Alamri (H4n) and Xenolexia Foundation.
+ * Licensed under the GNU Affero General Public License v3.0 (AGPL-3.0). See LICENSE.
+ */
+
 import { useState, useCallback, useMemo, useEffect } from 'react'
 import { getMinimalPairs, LANGUAGES, CATEGORIES } from './data/minimal-pairs'
 import { isSupported, playOneOption, playOption, TTS_ERROR_MESSAGE } from './services/tts'
