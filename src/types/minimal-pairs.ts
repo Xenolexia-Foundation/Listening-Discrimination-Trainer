@@ -8,19 +8,7 @@
  * TTS speaks one of optionA/optionB; user guesses which one was played.
  */
 
-/** A single minimal pair: two options (syllables, words, or phonemes) that TTS will speak. */
-export interface MinimalPair {
-  id: string;
-  optionA: string;
-  optionB: string;
-  /** BCP 47 language code for TTS (e.g. "zh-CN", "es-ES", "en-US"). */
-  language?: string;
-  /** Optional category for filtering (e.g. "consonants", "vowels", "tones"). */
-  category?: string;
-}
-
-/** A list of minimal pairs, optionally grouped by language/category. */
-export type MinimalPairSet = MinimalPair[];
+export type { MinimalPair, MinimalPairSet } from '@xenolexia/dict';
 
 /** Which option was the correct one in a round. */
 export type PairOption = 'A' | 'B';
